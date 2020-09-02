@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  line-height: 23px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: visible;
+  font-family: "Rubik", sans-serif;
+  color: #454545;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3a3a3a;
+  font-family: "Rubik", sans-serif;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 55px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  h1 br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  h1 br {
+    display: none;
+  }
+}
+
+p {
+  font-size: 14px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a,
+button {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #80BB01;
+}
+
+a,
+button,
+img,
+input,
+span {
+  transition: all 0.3s ease 0s;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#recipe-list {
+  padding-top: 30px;
+}
+
+.section-ptb {
+  padding: 60px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section-ptb {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-ptb {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-ptb {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .section-ptb {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product-details-view-content {
+    margin-top: 30px;
+  }
+}
